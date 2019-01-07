@@ -1,0 +1,68 @@
+
+body{
+	font-family: "Roboto";
+
+}
+
+#main{
+	display: flex;
+	width: 50%;
+	margin:auto;
+}
+#main div{
+	flex:1;
+}
+.colonne_Gauche{
+
+
+}
+.colonne_Droite{
+	border:1px solid #000;
+	background-color: black;
+	color: #e8e8e8;
+}
+
+
+
+#titre{
+	font-size: 15px;
+	font-family: Sans-serif;
+}
+#titre .sous_titre{
+	font-weight: bold;
+	color: #DCDCDC;
+}
+.info{
+	font-style: italic;
+	color: blue;
+	font-family: 'Galada', cursive;
+}
+
+#progression_C .s_titre {
+	font-weight: bold;
+
+
+}
+
+#coordonnées {
+	list-style-type: none;
+}
+
+
+progress {
+    width: 60%;
+    height: 20px;
+    color: grey;
+    background: #DCDCDC;
+} 
+
+progress::-webkit-progress-bar {
+    background: grey;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
